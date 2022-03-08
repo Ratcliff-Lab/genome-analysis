@@ -1,7 +1,7 @@
 # Descriptions of primary scripts and/or implementation instructions
 
-## bootstrap-mutation-frequencies.py
-Usage: 
+### bootstrap-mutation-frequencies.py
+Usage: \
 ./bootstrap-mutation-frequencies.py \
 -i input_annotations.csv \
 -c comparison_annotations.csv \
