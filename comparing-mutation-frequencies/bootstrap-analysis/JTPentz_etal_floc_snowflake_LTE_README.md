@@ -15,11 +15,13 @@ The simulate-mutations.sh script (found in this directory) was the ran as:
 -x Mutation-Simulator \
 -o scerv_S288C
 
+### Annotation of simulated variants
 Simulated mutations were then annotated using SnpEff, consistent with the experiment. The tool was implemented as follows:
 
 java -jar snpEff.jar build -gtf22 -noCheckCds -noCheckProtein -v S_cerv_288c
 java -jar snpEff.jar S_cerv_288c GCF_000146045.2_R64_genomic_ms.vcf > S_cerv_annot.vcf
 
+### Comparing yeat mutation frequencies to simulation
 Finally, annotatated variants were extracted and used in the bootstrap-mutation-frequencies.py script (found in this directory):
 
 Comparing Flocs to simulation \
