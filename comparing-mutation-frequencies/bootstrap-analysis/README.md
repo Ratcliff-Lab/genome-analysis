@@ -7,7 +7,7 @@ Usage: \
 -c comparison_annotations.csv \
 -b number_of_bootstraps \
 -o output_file_handle \
--p \
+-p 
 
 Description: \
 -i, --input    A list of categorical mutation annotations in .csv format with no header line, required \
@@ -18,4 +18,4 @@ Description: \
 
 Notes: \
 To run this script, the Pandas python package must be installed. \
-To produce plots, the Matplotlib and Seaborn python packages but be installed. \
+To produce plots, the Matplotlib and Seaborn python packages but be installed. 
