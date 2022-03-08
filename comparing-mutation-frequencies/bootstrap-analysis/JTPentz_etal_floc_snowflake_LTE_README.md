@@ -1,4 +1,4 @@
-# Statistically Comparing Mutation Frequencies in Snowflake and Flocculating Yeasts to a Randomly Simulated Mutations
+# Statistically Comparing Mutation Frequencies in Snowflake and Flocculating Yeasts to Randomly Simulated Mutations
 
 ## Approach
 To evaluate whether different types of mutations are occurring at higher frequencies than randomly expected, we first simulate 100,000 random mutations in the reference genome. This is done to generate a null expectation of how random mutations present. We then call these mutations, and randomly select the number of mutations we found in the study from this null distribution. These frequencies are then compared to the frequencies of the mutations observed in the experiment. This same resampling process was performed 1000 times to see what portion of the time we saw differences between the two treatments that is at least as large as the one we saw experimentally. 
