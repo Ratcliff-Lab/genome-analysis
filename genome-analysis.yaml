@@ -1,0 +1,15 @@
+name: genome-analysis
+dependencies:
+  - bioconda:trimmomatic
+  - biocinda:fastqc
+  - bioconda:bwa
+  - bioconda:bamtools
+  - bioconda:picard
+  - bioconda:samtools
+  - bioconda:vcftools
+  - bioconda:tabix
+  - bioconda:bcftools
+  - bioconda:snpeff
+  - bioconda:vcf-annotator
+  - bioconda:igv
+
